@@ -1,0 +1,14 @@
+var teclado = require('prompt-sync')();
+console.clear();
+var numeroUm = parseFloat(teclado("digite o primeiro numero"));
+var numeroDois = parseFloat(teclado("digite o segundo numero"));
+var numeroTres = parseFloat(teclado("digite o terceiro numero"));
+var numeroQuatro = parseFloat(teclado("digite o quarto numero"));
+var numeroCinco = parseFloat(teclado("digite o quinto numero"));
+var numeroSeis = parseFloat(teclado("digite o sexto numero"));
+var numeroSete = parseFloat(teclado("digite o setimo numero"));
+var numeroOito = parseFloat(teclado("digite o oitavo numero"));
+var numeroNove = parseFloat(teclado("digite o nono numero"));
+var numeroDez = parseFloat(teclado("digite o decimo numero"));
+var media = (numeroUm + numeroDois + numeroTres + numeroQuatro + numeroCinco + numeroSeis + numeroSete + numeroOito + numeroNove + numeroDez) / 10;
+console.log("A Media de 10 numeros \u00E9 ".concat(media));
